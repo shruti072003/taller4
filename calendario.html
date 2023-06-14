@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calendario</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="calendario.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1>Calendario</h1>
     <div id="calendario">
-        <p id="head">2023 JUNE</p>
+        <h2 id="head">2023 JUNE</h2>
         <table>
             <tr>
                 <th>Sunday</th>
@@ -25,47 +29,61 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                <td>1<br> Electrónica</td>
+                <td class="evento">1<br><a href="./registroEst.html">Electrónica</a></td>
                 <td>2</td>
-                <td>3<br> Programación</td>
+                <td class="evento">3<br><a href="./registroEst.html">Programación</a></td>
             </tr>
             <tr>
                 <td>4</td>
-                <td>5<br> Soldadura</td>
-                <td>6<br> Electrónica</td>
+                <td class="evento">5<br><a href="./registroEst.html">Soldadura</a></td>
+                <td class="evento">6<br> <a href="./registroEst.html">Electrónica</a></td>
                 <td>7</td>
-                <td>8<br> Electrónica</td>
+                <td class="evento">8<br> <a href="./registroEst.html">Electrónica</a></td>
                 <td>9</td>
-                <td>10<br> Programación</td>
+                <td class="evento">10<br> <a href="./registroEst.html">Programación</a></td>
             </tr>
             <tr>
                 <td>11</td>
-                <td>12<br> Soldadura</td>
-                <td>13<br> Electrónica</td>
+                <td class="evento">12<br> <a href="./registroEst.html">Soldadura</a></td>
+                <td class="evento">13<br> <a href="./registroEst.html">Electrónica</a></td>
                 <td>14</td>
-                <td>15<br> Electrónica</td>
+                <td class="evento">15<br> <a href="./registroEst.html">Electrónica</a></td>
                 <td>16</td>
-                <td>17<br> Programación</td>
+                <td class="evento">17<br> <a href="./registroEst.html">Programación</a></td>
             </tr>
             <tr>
                 <td>18</td>
-                <td>19<br> Soldadura</td>
-                <td>20<br> Electrónica</td>
+                <td class="evento">19<br> <a href="./registroEst.html">Soldadura</a></td>
+                <td class="evento">20<br> <a href="./registroEst.html">Electrónica</a></td>
                 <td>21</td>
-                <td>22<br> Electrónica</td>
+                <td class="evento">22<br> <a href="./registroEst.html">Electrónica</a></td>
                 <td>23</td>
-                <td>24<br> Programación</td>
+                <td class="evento">24<br> <a href="./registroEst.html">Programación</a></td>
             </tr>
-            <tr>
+            <tr id="last-row">
                 <td>25</td>
-                <td>26<br> Soldadura</td>
-                <td>27<br> Electrónica</td>
+                <td class="evento">26<br> <a href="./registroEst.html">Soldadura</a></td>
+                <td class="evento">27<br> <a href="./registroEst.html">Electrónica</a></td>
                 <td>28</td>
-                <td>29<br> Electrónica</td>
+                <td class="evento">29<br> <a href="./registroEst.html">Electrónica</a></td>
                 <td>30</td>
                 <td></td>
             </tr>
         </table>
+        <a id="soyDocente" href="./registroProf.html">Soy Docente</a>
     </div>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-menu">
+            <p><a href="./home.html">Inicio</a></p>
+            <p><a href="./registroProf.html">Profesores</a></p>
+            <p><a href="./registroEst.html">Estudiantes</a></p>
+            <p><a href="./calendario.html">Calendario</a></p>
+            <p><a href="./soporte.html">Soporte</a></p>
+        </div>
+        <div class="footer-copyright">
+            <p>Copyright© 2023.</p>
+        </div>
+    </footer>
 </body>
 </html>

@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro de estudiante</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="registroEst.css">
+     <!-- Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="grid">
@@ -21,10 +25,10 @@
         <section class="right">
             <div class="container">
                 <div id="logo">
-                    <img src="" alt="logo">
+                    <img src="./assets/logo.png" alt="logo">
                 </div>
                 <h1>Registro de Estudiantes</h1>
-                <form action="registroEst.jsp">
+                <form action="exitoEst.jsp">
                     <label for="nombre" class="description">Nombre <spam class="asterisk">*</spam></label> <br>
                     <input type="text" name="nombre" id="nombre" required class="square"> <br>
                     <label for="cedula" class="description" id="ced">Cédula <spam class="asterisk">*</spam></label> <br>
@@ -52,10 +56,23 @@
                     <label for="programacion">Programación</label> <br>
                     <label for="indice" class="description">Indice <spam class="asterisk">*</spam></label><br>
                     <input type="number" name="indice" id="indice"  required class="square"> <br>
-                    <input type="submit" class="submit square">
+                    <input type="submit" class="submit square" >
                 </form>
             </div>
         </section>
     </div>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-menu">
+            <p><a href="/home.html">Inicio</a></p>
+            <p><a href="/registroProf.html">Profesores</a></p>
+            <p><a href="/registroEst.html">Estudiantes</a></p>
+            <p><a href="/calendario.html">Calendario</a></p>
+            <p><a href="/soporte.html">Soporte</a></p>
+        </div>
+        <div class="footer-copyright">
+            <p>Copyright© 2023.</p>
+        </div>
+    </footer>
 </body>
 </html>
