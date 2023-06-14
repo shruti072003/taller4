@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de profesores</title>
+    <link rel="stylesheet" href="registroProf.css">
+     <!-- Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="grid">
+        <section class="left">
+            <p>
+                ¡Bienvenido al portal de registro de profesores de la Universidad del Pueblo! 
+                Aquí encontrarás una plataforma dedicada exclusivamente a 
+                facilitar el proceso de inscripción y registro de profesores.
+            </p>
+            <div id="asset">
+                <img src="./assets/registroProf.png" alt="login">
+            </div>
+        </section>
+        <section class="right">
+            <div class="container">
+                <div id="logo">
+                    <img src="./assets/logo.png" alt="logo">
+                </div>
+                <h1>Registro de Estudiantes</h1>
+                <form action="registroEst.jsp">
+                    <label for="nombre" class="description">Nombre <spam class="asterisk">*</spam></label> <br>
+                    <input type="text" name="nombre" id="nombre" required class="square"> <br>
+                    <label for="cedula" class="description" id="ced">Cédula <spam class="asterisk">*</spam></label> <br>
+                    <input type="text" name="cedula" id="cedula" required class="square"> <br>
+                    <label for="materia" class="description" id="materia">Materia que dicta <spam class="asterisk">*</spam></label> <br></label>
+                    <input type="text" name="materia" id="materia" required class="square"> <br>
+                    <label for="centro" class="description">Centro regional donde labora<spam class="asterisk">*</spam></label><br>
+                    <select name="centro" id="centro" required class="square">
+                        <option value="panama">Panamá</option>
+                        <option value="cocle">Coclé</option>
+                        <option value="colon">Colón</option>
+                        <option value="veraguas">Veraguas</option>
+                        <option value="lsantos">Los Santos</option>
+                        <option value="bocas">Bocas del Toro</option>
+                        <option value="chiriqui">Chiriquí</option>
+                    </select> <br>
+                    <p class="description">Tiene experiencia en clases virtuales <spam class="asterisk">*</spam></p>
+                    <div class="radio-btn">
+                        <div>
+                            <input type="radio" id="virtual" name="virtual" value="Si">
+                            <label for="Si">Si</label> <br></label>
+                        </div>
+                        <div>
+                            <input type="radio" id="virtual" name="virtual" value="Si">
+                            <label for="No">No</label> <br></label>
+                        </div>
+                    </div>
+                    <input type="submit" class="submit square" >
+                </form>
+            </div>
+        </section>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-menu">
+            <p><a href="/home.html">Inicio</a></p>
+            <p><a href="/registroProf.html">Profesores</a></p>
+            <p><a href="/registroEst.html">Estudiantes</a></p>
+            <p><a href="./calendario.html">Calendario</a></p>
+            <p><a href="./soporte.html">Soporte</a></p>
+        </div>
+        <div class="footer-copyright">
+            <p>Copyright© 2023.</p>
+        </div>
+    </footer>
+</body>
+</html>
