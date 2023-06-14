@@ -12,9 +12,12 @@ section {
     display: flex;
     flex-direction: row;
     padding: 2rem;
-    justify-content: space-around;
+    column-gap: 12%;
 }
 /* Contenedor de información */
+.first{
+    margin-left: 17%;
+}
 .container {
     width: 330px;
     height: 465px;

@@ -1,33 +1,20 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soporte</title>
-    <link rel="stylesheet" href="soporte.css">
+    <title>Exito</title>
+    <link rel="stylesheet" href="exitoEst.css">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Soporte</h1>
-    <section>
-        <div class="container first">
-            <img src="./assets/chris.jpeg" 
-            alt="noticia-img"/>
-            <p>Christopher Díaz</p>
-            <p>7-714-73</p>
-            <p>20 años</p>
-        </div>
-        <div class="container">
-            <img src="./assets/Shruti.jpg" 
-            alt="noticia-img"/>
-            <p>Shruti Tewaney</p>
-            <p>8-999-1896</p>
-            <p>19 años</p>
-        </div>
-    </section>
+    <div id="exitoso">
+        <h1>Registro exitoso</h1>
+        <a href="home.html">Regresar</a>
+    </div>
     <!-- Footer -->
     <footer>
         <div class="footer-menu">
