@@ -1,5 +1,5 @@
 /* Styling general de la pagina */
-body {
+#body-home {
     margin: 0;
     background-color: #E2EDF2;
     display: flex;

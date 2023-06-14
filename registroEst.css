@@ -1,6 +1,8 @@
 /* Background color */
 body{
     background-color: #E2EDF2;
+    margin: 5px 0 0 0;
+    overflow-x: hidden;
 }
 /*Registros*/
 .grid{
@@ -15,7 +17,7 @@ body{
         row-gap: 20px;
         width: 55%;
         >p{
-            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-family: 'Urbanist';
             font-size: 25px;
             font-weight: 700;
             line-height: 30px;
@@ -40,6 +42,10 @@ body{
             >#logo{
                 text-align: center; 
                 top: 10px;
+                >img{
+                    width: 200px;
+                    height: auto;
+                }
             }
             >h1{
                 font-family: Georgia, 'Times New Roman', Times, serif;
@@ -56,7 +62,7 @@ body{
                 }
                 .description{
                     font-family: Georgia, 'Times New Roman', Times, serif;
-                    font-size: 20px;
+                    font-size: 18px;
                     font-weight: 700;
                     line-height: 24px;
                     letter-spacing: 0em;
@@ -74,38 +80,41 @@ body{
                 margin-top: 40px;
                 height: 29px;
                 width: 109px;
+                border: 1px solid #FFFFFF;
+                font-family: 'Urbanist';
+                font-weight: 700;
             }
         }
     }
 }
-/* Estilo para la página de Calendario */
-#calendario {
-    width: 50%;
-    background-color: white;
-}
-  
-#calendario table {
+/*** Styling del footer ***/
+footer {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 40rem;
+    height: 85px;
+    width: 1170px;
+    padding: 0 3.5rem;
+    background-color: #CADBE2;
     width: 100%;
-    border-collapse: collapse;
-}
-  
-#calendario th, #calendario td {
-    padding: 8px;
-    text-align: center;
-    border: 1px solid black;
+    position: relative;
+    margin-top: 40px;
 }
 
-#calendario th {
-    background-color: #f2f2f2;  
+.footer-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
 }
-#calendario td {
-    background-color: white;
+
+footer p, footer a {
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 700;
 }
-/* Additional styling for the calendar heading */
-#calendario #head {
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 10px;
+
+
+footer a:hover {
+    color: #AB8707;
 }
-  
