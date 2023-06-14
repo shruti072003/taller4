@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de estudiante</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="grid">
+        <section class="left">
+            <p>
+                ¡Bienvenido al portal de registro estudiantil de la Universidad del Pueblo! <br>
+                Este es tu punto de partida para iniciar tu camino hacia una <br>
+                educación técnica de calidad y alcanzar tus metas profesionales.
+            </p>
+            <div id="asset">
+                <img src="https://rrpublicschool.com/back/assets/images/signin.svg" alt="login">
+            </div>
+        </section>
+        <section class="right">
+            <div class="container">
+                <div id="logo">
+                    <img src="" alt="logo">
+                </div>
+                <h1>Registro de Estudiantes</h1>
+                <form action="registroEst.jsp">
+                    <label for="nombre" class="description">Nombre <spam class="asterisk">*</spam></label> <br>
+                    <input type="text" name="nombre" id="nombre" required class="square"> <br>
+                    <label for="cedula" class="description" id="ced">Cédula <spam class="asterisk">*</spam></label> <br>
+                    <input type="text" name="cedula" id="cedula" required class="square"> <br>
+                    <label for="año" class="description">Año lectivo <spam class="asterisk">*</spam></label><br>
+                    <input type="number" name="año" id="año" required class="square"><br>
+                    <label for="centro" class="description">Centro regional <spam class="asterisk">*</spam></label><br>
+                    <select name="centro" id="centro" required class="square">
+                        <option value="panama">Panamá</option>
+                        <option value="cocle">Coclé</option>
+                        <option value="colon">Colón</option>
+                        <option value="veraguas">Veraguas</option>
+                        <option value="lsantos">Los Santos</option>
+                        <option value="bocas">Bocas del Toro</option>
+                        <option value="chiriqui">Chiriquí</option>
+                    </select> <br>
+                    <label for="cursos" class="description">Cursos a los que desea ingresar <spam class="asterisk">*</spam></label> <br>
+                    <input type="checkbox" name="soldadura" id="soldadura">
+                    <label for="soldadura">Soldadura</label> <br>
+                    <input type="checkbox" name="electronica" id="electronica">
+                    <label for="electronica">Electrónica</label> <br>
+                    <input type="checkbox" name="cocina" id="cocina">
+                    <label for="cocina">Cocina</label> <br>
+                    <input type="checkbox" name="programacion" id="programacion">
+                    <label for="programacion">Programación</label> <br>
+                    <label for="indice" class="description">Indice <spam class="asterisk">*</spam></label><br>
+                    <input type="number" name="indice" id="indice"  required class="square"> <br>
+                    <input type="submit" class="submit square">
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
