@@ -4,6 +4,7 @@ body{
     margin: 5px 0 0 0;
     overflow-x: hidden;
     padding: 20px 0 0 0;
+    font-family: Urbanist;
 }
 #calendario {
     width: 900px;
@@ -24,6 +25,16 @@ h1{
 tr{
     height: 88px;
 }
+td a {
+    text-decoration: none;
+    color: #24475B;
+    font-weight: 700;
+}
+td a:hover {
+    cursor: pointer;
+    color: #CADBE2;
+}
+
 #calendario th, #calendario td {
     padding: 8px;
     text-align: center;
@@ -45,6 +56,7 @@ tr{
 }
 /* Estilo para el botón de soy docente */
 #soyDocente{
+    text-decoration: none;
     display: inline-flex;
     justify-content: center;
     margin-left: 38%;
@@ -58,6 +70,13 @@ tr{
     color: white;
     font-size: 20px;
     font-weight: bold;
+}
+
+#soyDocente:hover {
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #24475B;
+    color: black;
 }
 /*** Styling del footer ***/
 footer {

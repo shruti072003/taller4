@@ -20,6 +20,11 @@ nav {
     color: white;
 }
 
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
 nav a:hover {
     color: #AB8707;
 }
